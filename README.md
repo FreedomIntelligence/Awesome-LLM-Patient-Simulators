@@ -199,7 +199,11 @@ This repository provides a curated collection of research papers on **Large Lang
 
 #### (2024/04) Virtual Standardized LLM-AI Patients for Clinical Practice  
 [Future Healthcare Journal](https://www.sciencedirect.com/science/article/pii/S2514664524001553?via%3Dihub)  
-*Demonstrate the viability of using LLM technology, specifically GPT-3.5 and GPT-4, to create realistic virtual patients.*
+*Demonstrates the viability of using LLM technology, specifically GPT-3.5 and GPT-4, to create realistic virtual patients.*
+
+#### (2024/04) Utilizing generative conversational artificial intelligence to create simulated patient encounters: a pilot study for anaesthesia training  
+[Postgraduate Medical Journal](https://academic.oup.com/pmj/article/100/1182/237/7571383)  
+*Explores the use of **generative conversational artificial intelligence** to create simulated patients for medical education, ‘Convai’ was used to simulating a patient, with whom trainee doctors can interact with.*
 
 #### (2024/05) Simulating Diverse Patient Populations Using Patient Vignettes and Large Language Models  
 [ACL Anthology](https://aclanthology.org/2024.cl4health-1.3/) | [pdf](https://aclanthology.org/2024.cl4health-1.3.pdf)  
