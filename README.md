@@ -151,6 +151,10 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](http://arxiv.org/abs/2404.13066)  
 *Introduces **CureFun**, an **integrated framework** that utilizes LLMs as simulated patients for clinical education, enhancing student-patient dialogues, providing real-time evaluations, and improving medical training through realistic, AI-driven interactions.*
 
+#### (2024/04) Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents  
+[arXiv](https://arxiv.org/abs/2405.02957)  
+*Introduce a simulacrum of hospital called **Agent Hospital** that simulates the entire process of treating illness, in which all patients, nurses, and doctors are LLM-powered autonomous agents.*
+
 #### (2025/03) Augmenting Insufficiently Accruing Oncology Clinical Trials Using Generative Models: Validation Study  
 [JMIR](https://www.jmir.org/2025/1/e66821) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e66821_app1.pdf&filename=1b8ee696dd8ab5638b213dcf7d139fb8.pdf)  
 *Explores the use of generative models to augment oncology clinical trials with insufficient patient accrual, validating their effectiveness in simulating additional patient data to improve trial outcomes.*
