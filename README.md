@@ -201,7 +201,7 @@ This repository provides a curated collection of research papers on **Large Lang
 [Annual Review of CyberTherapy and Telemedicine](https://www.researchgate.net/publication/387328695_ANNUAL_REVIEW_OF_CYBERTHERAPY_AND_TELEMEDICINE_2024#page=172)  
 *Explores the use of virtual standardized AI patients powered by LLMs to enhance clinical practice and therapy training.*
 
-#### (2024/04) Virtual Standardized LLM-AI Patients for Clinical Practice  
+#### (2024/04) Enhancing communication and clinical reasoning in medical education: Building virtual patients with generative AI  
 [Future Healthcare Journal](https://www.sciencedirect.com/science/article/pii/S2514664524001553?via%3Dihub)  
 *Demonstrates the viability of using LLM technology, specifically GPT-3.5 and GPT-4, to create realistic virtual patients.*
 
@@ -266,6 +266,13 @@ This repository provides a curated collection of research papers on **Large Lang
 #### (2024/11) Large language models improve clinical decision making of medical students through patient simulation and structured feedback: a randomized controlled trial  
 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/) | [Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/#_ad93_)  
 *Demonstrates that AI-simulated medical history conversations, particularly when combined with structured feedback, can enhance clinical decision-making skills in medical students.*
+
+### ⚕️ Patient Communication Simulation
+
+#### (2025/03) Beyond the Script: Testing LLMs for Authentic Patient Communication Styles in Healthcare
+[arXiv](https://arxiv.org/abs/2503.22250)  
+*Proposes the use of Large Language Models (LLMs) to simulate authentic patient communication styles and these VPs are evaluated by medical professionals.*
+
 
 </div>
 
