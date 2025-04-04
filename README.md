@@ -19,27 +19,29 @@ This repository provides a curated collection of research papers on **Large Lang
 
 <div style="background-color: #f5f7fa; padding: 15px; border-radius: 8px; margin: 15px 0; font-size: 0.95em;">
 
-- [Fundamental Research](#-fundamental-research)
-  - [Virtual Patient](#-virtual-patient)
-- [Methodology](#-methodology)
-  - [Agent Systems](#-agent-systems)
-  - [NLP Techniques](#-nlp-techniques)
-  - [Generative Models](#-generative-models)
-  - [Transformer Architectures](#-transformer-architectures)
-  - [Prompt Engineering](#-prompt-engineering)
-- [Applications](#-applications)
-  - [General Medical Education](#-general-medical-education)
-  - [Psychiatric Medicine](#-psychiatric-medicine)
-  - [Clinical Decision Support](#-clinical-decision-support)
-- [Evaluation Methods & Effects](#-evaluation-methods--effects)
-- [Challenges & Limitations](#-challenges--limitations)
-  - [Bias & Ethical Considerations](#-bias--ethical-considerations)
+- [Fundamental Research](#fundamental-research)
+  - [Virtual Patient Development(#virtual-patient-development)
+- [Methodology](#methodology)
+  - [Agent Systems](#agent-systems)
+  - [NLP Techniques](#nlp-techniques)
+  - [Generative Models](#generative-models)
+  - [Transformer Architectures](#transformer-architectures)
+  - [Prompt Engineering](#prompt-engineering)
+- [Applications](#applications)
+  - [General Medical Education](#general-medical-education)
+  - [Nurse Training](#nurse-training)
+  - [Psychiatric Medicine](#psychiatric-medicine)
+  - [Clinical Decision Support](#clinical-decision-support)
+  - [Patient Communication Simulation](#patient-communication-simulation)
+- [Evaluation Methods & Effects](#evaluation-methods--effects)
+- [Challenges & Limitations](#challenges--limitations)
+  - [Bias & Ethical Considerations](#bias--ethical-considerations)
 
 </div>
 
 ---
 
-## 🔍 Fundamental Research <span style="font-size: 0.8em; color: #666;">📚</span>
+## <a id="fundamental-research"></a>🔍 Fundamental Research <span style="font-size: 0.8em; color: #666;">📚</span>
 
 <div style="margin: 20px 0;">
 
@@ -63,7 +65,7 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](http://arxiv.org/abs/2502.18210) | [pdf](https://arxiv.org/pdf/2502.18210) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e59435_app1.docx&filename=2ff26f0a7b3db530e6e1a74bd2a50323.docx)  
 *Analyses LLMs' ability to simulate human behavior, discussing key limitations (e.g., bias, lack of incentives) and future alignment strategies.*
 
-### 🤒 Virtual Patient Development
+### <a id="virtual-patient-development"></a>🤒 Virtual Patient Development
 
 #### (2007) Virtual Patient Simulation at U.S. and Canadian Medical Schools  
 [PudMed](https://www.researchgate.net/publication/6372288_Virtual_Patient_Simulation_at_US_and_Canadian_Medical_Schools)  
@@ -97,11 +99,11 @@ This repository provides a curated collection of research papers on **Large Lang
 
 ---
 
-## 🛠️ Methodology <span style="font-size: 0.8em; color: #666;">⚙️</span>
+## <a id="methodology"></a>🛠️ Methodology <span style="font-size: 0.8em; color: #666;">⚙️</span>
 
 <div style="margin: 20px 0;">
 
-### 🤖 Agent Systems
+### <a id="agent-systems"></a>🤖 Agent Systems
 
 #### (2024/01) Towards Conversational Diagnostic AI  
 [arXiv](https://arxiv.org/abs/2401.05654)  
@@ -127,7 +129,11 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](http://arxiv.org/abs/2502.18673)  
 *Introduces a LLM-based multi-agent system (SimPatient) with dynamic cognitive modeling and real-time feedback to enhance motivational interviewing (MI) training through interactive patient simulations.*
 
-### 💬 NLP Techniques
+#### (2025/03) Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions
+[arXiv](https://arxiv.org/abs/2503.22678)  
+*introduce MedAgentSim, an open-source simulated clinical environment with doctor, patient, and measurement agents designed to evaluate and enhance LLM performance in dynamic diagnostic settings.*
+
+### <a id="nlp-techniques"></a>💬 NLP Techniques
 
 #### (2022/11) Artificial intelligence in virtual standardized patients: Combining natural language understanding and rule based dialogue management to improve conversational fidelity  
 [Medical Teacher](https://www.tandfonline.com/doi/full/10.1080/0142159X.2022.2130216)  
@@ -141,7 +147,7 @@ This repository provides a curated collection of research papers on **Large Lang
 [Springer Link](https://link.springer.com/chapter/10.1007/978-3-031-75147-9_9) | [Project](https://github.com/cgrevisse/raspatientpi)  
 *Presents **RasPatient Pi**, a low-cost, customizable virtual standardized patient simulator based on Large Language Models (LLMs).*
 
-### 🎨 Generative Models
+### <a id="generative-models"></a>🎨 Generative Models
 
 #### (2024/03) Creating Virtual Patients using Robots and Large Language Models: A Preliminary Study with Medical Students  
 [ACM](https://dl.acm.org/doi/10.1145/3610978.3640592)  
@@ -159,13 +165,13 @@ This repository provides a curated collection of research papers on **Large Lang
 [JMIR](https://www.jmir.org/2025/1/e66821) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e66821_app1.pdf&filename=1b8ee696dd8ab5638b213dcf7d139fb8.pdf)  
 *Explores the use of generative models to augment oncology clinical trials with insufficient patient accrual, validating their effectiveness in simulating additional patient data to improve trial outcomes.*
 
-### 🖼️ Transformer Architectures
+### <a id="transformer-architectures"></a>🖼️ Transformer Architectures
 
 #### (2024/08) MedDiT: A Knowledge-Controlled Diffusion Transformer Framework for Dynamic Medical Image Generation in Virtual Simulated Patient  
 [arXiv](http://arxiv.org/abs/2408.12236) | [pdf](http://arxiv.org/pdf/2408.12236v1)  
 *Introduces MedDiT, a knowledge-controlled diffusion transformer framework designed to dynamically generate medical images for virtual simulated patients.*
 
-### ✏️ Prompt Engineering
+### <a id="prompt-engineering"></a>✏️ Prompt Engineering
 
 #### (2024/01) A Generative Pretrained Transformer (GPT)–Powered Chatbot as a Simulated Patient to Practice History Taking: Prospective, Mixed Methods Study  
 [JMIR](https://mededu.jmir.org/2024/1/e53961) | [pdf](https://jmir.org/api/download?alt_name=mededu_v10i1e53961_app1.pdf&filename=afea0cccea2a67adc54d26ef18fd7da4.pdf)  
@@ -179,11 +185,11 @@ This repository provides a curated collection of research papers on **Large Lang
 
 ---
 
-## 🏥 Applications <span style="font-size: 0.8em; color: #666;">🩺</span>
+## <a id="applications"></a>🏥 Applications <span style="font-size: 0.8em; color: #666;">🩺</span>
 
 <div style="margin: 20px 0;">
 
-### 🩺 General Medical Education
+### <a id="general-medical-education"></a>🩺 General Medical Education
 
 #### (2010) Virtual patient simulation: what do students make of it? A focus group study.  
 [BMC Med Educ](https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-10-91)  
@@ -237,13 +243,13 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](http://arxiv.org/abs/2503.05793)  
 *Introduces **MedSimAI**, an AI-driven platform designed to enhance medical education by providing realistic simulations and formative feedback.*
 
-### 👩‍⚕️ Nurse Training
+### <a id="nurse-training"></a>👩‍⚕️ Nurse Training
 
 #### (2024/06) Evaluation of Large Language Model Generated Dialogues for an AI Based VR Nurse Training Simulator  
 [Springer Link](https://link.springer.com/chapter/10.1007/978-3-031-61041-7_13)  
 *Evaluates the efficacy of LLM-generated dialogues (GPT-3.5, Bard, ClaudeAI) for VR nurse training simulators*
 
-### 🧠 Psychiatric Medicine
+### <a id="psychiatric-medicine"></a>🧠 Psychiatric Medicine
 
 #### (2022/06 ) Embodied Virtual Patients as a Simulation-Based Framework for Training Clinician-Patient Communication Skills: An Overview of Their Use in Psychiatric and Geriatric Care  
 [Frontiers](https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2022.827312/full)   
@@ -261,13 +267,13 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](http://arxiv.org/abs/2501.01594) | [pdf](http://arxiv.org/pdf/2501.01594v1)  
 *Presents PSYCHE, a multi-faceted patient simulation framework designed to evaluate psychiatric assessment conversational agents, assessing their performance in realistic patient interactions for mental health evaluations.*
 
-### ⚕️ Clinical Decision Support
+### <a id="clinical-decision-support"></a>⚕️ Clinical Decision Support
 
 #### (2024/11) Large language models improve clinical decision making of medical students through patient simulation and structured feedback: a randomized controlled trial  
 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/) | [Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/#_ad93_)  
 *Demonstrates that AI-simulated medical history conversations, particularly when combined with structured feedback, can enhance clinical decision-making skills in medical students.*
 
-### 💬 Patient Communication Simulation
+### <a id="patient-communication-simulation"></a>💬 Patient Communication Simulation
 
 #### (2025/03) Beyond the Script: Testing LLMs for Authentic Patient Communication Styles in Healthcare
 [arXiv](https://arxiv.org/abs/2503.22250)  
@@ -278,7 +284,7 @@ This repository provides a curated collection of research papers on **Large Lang
 
 ---
 
-## ☑️ Evaluation Methods & Effects <span style="font-size: 0.8em; color: #666;">🚨</span>
+## <a id="evaluation-methods--effects"></a>☑️ Evaluation Methods & Effects <span style="font-size: 0.8em; color: #666;">🚨</span>
 
 <div style="margin: 20px 0;">
 
@@ -302,7 +308,7 @@ This repository provides a curated collection of research papers on **Large Lang
 
 ---
 
-## ⚠️ Challenges & Limitations <span style="font-size: 0.8em; color: #666;">🚨</span>
+## <a id="challenges--limitations"></a>⚠️ Challenges & Limitations <span style="font-size: 0.8em; color: #666;">🚨</span>
 
 <div style="margin: 20px 0;">
 
@@ -311,7 +317,7 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv]([https://pmc.ncbi.nlm.nih.gov/articles/PMC11249277/](https://arxiv.org/abs/2311.05112))  
 *The applications of LLM in medicine are reviewed, covering the challenges of patient simulation (such as dynamic interaction and realism).*
 
-### 🎭 Bias & Ethical Considerations
+### <a id="bias--ethical-considerations"></a>🎭 Bias & Ethical Considerations
 
 #### (2024/06) Ethical Considerations in the Use of Artificial Intelligence and Machine Learning in Health Care: A Comprehensive Review  
 [PubMed](https://pmc.ncbi.nlm.nih.gov/articles/PMC11249277/)  
