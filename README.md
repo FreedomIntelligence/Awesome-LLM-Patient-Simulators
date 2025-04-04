@@ -20,7 +20,7 @@ This repository provides a curated collection of research papers on **Large Lang
 <div style="background-color: #f5f7fa; padding: 15px; border-radius: 8px; margin: 15px 0; font-size: 0.95em;">
 
 - [Fundamental Research](#fundamental-research)
-  - [Virtual Patient Development(#virtual-patient-development)
+  - [Virtual Patient Development](#virtual-patient-development)
 - [Methodology](#methodology)
   - [Agent Systems](#agent-systems)
   - [NLP Techniques](#nlp-techniques)
