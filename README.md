@@ -267,7 +267,7 @@ This repository provides a curated collection of research papers on **Large Lang
 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/) | [Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/#_ad93_)  
 *Demonstrates that AI-simulated medical history conversations, particularly when combined with structured feedback, can enhance clinical decision-making skills in medical students.*
 
-### ⚕️ Patient Communication Simulation
+### 💬 Patient Communication Simulation
 
 #### (2025/03) Beyond the Script: Testing LLMs for Authentic Patient Communication Styles in Healthcare
 [arXiv](https://arxiv.org/abs/2503.22250)  
