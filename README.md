@@ -1,8 +1,8 @@
 # Awesome-LLM-Patient-Simulators <span style="font-size: 0.8em; color: #555;">✨</span>
 
-[![Awesome LLM Patient Simulators](https://img.shields.io/static/v1?label=&message=Awesome+LLM+Patient+Simulators&color=1e88e5&style=flat-square&logo=awesomelists)](https://github.com/HuberyGG/Awesome-LLM-Patient-Simulators)
-[![Last Commit](https://img.shields.io/github/last-commit/HuberyGG/Awesome-LLM-Patient-Simulators?color=4caf50&style=flat-square)](https://github.com/HuberyGG/Awesome-LLM-Patient-Simulators/commits/main)
-[![GitHub Stars](https://img.shields.io/github/stars/HuberyGG/Awesome-LLM-Patient-Simulators?style=social&color=ff4081)](https://github.com/HuberyGG/Awesome-LLM-Patient-Simulators)
+[![Awesome LLM Patient Simulators](https://img.shields.io/static/v1?label=&message=Awesome+LLM+Patient+Simulators&color=1e88e5&style=flat-square&logo=awesomelists)](https://github.com/FreedomIntelligence/Awesome-LLM-Patient-Simulators)
+[![Last Commit](https://img.shields.io/github/last-commit/FreedomIntelligence/Awesome-LLM-Patient-Simulators?color=4caf50&style=flat-square)](https://github.com/FreedomIntelligence/Awesome-LLM-Patient-Simulators/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/FreedomIntelligence/Awesome-LLM-Patient-Simulators?style=social&color=ff4081)](https://github.com/FreedomIntelligence/Awesome-LLM-Patient-Simulators)
 
 <div style="font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 0 20px;">
 
@@ -335,11 +335,11 @@ This repository provides a curated collection of research papers on **Large Lang
 
 <div style="text-align: center; margin: 30px 0;">
 
-<a href="https://star-history.com/#HuberyGG/Awesome-LLM-Patient-Simulators&Date">
+<a href="https://star-history.com/#FreedomIntelligence/Awesome-LLM-Patient-Simulators&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HuberyGG/Awesome-LLM-Patient-Simulators&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HuberyGG/Awesome-LLM-Patient-Simulators&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HuberyGG/Awesome-LLM-Patient-Simulators&type=Date" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLM-Patient-Simulators&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLM-Patient-Simulators&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLM-Patient-Simulators&type=Date" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
   </picture>
 </a>
 
