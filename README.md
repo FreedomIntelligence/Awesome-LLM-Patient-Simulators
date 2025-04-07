@@ -109,6 +109,14 @@ This repository provides a curated collection of research papers on **Large Lang
 [arXiv](https://arxiv.org/abs/2401.05654)  
 *Introduces **AMIE**, an AI-driven system powered by LLMs that simulates virtual patient-doctor interactions for clinical education, enhancing diagnostic reasoning and medical history-taking skills.*
 
+#### (2024/04) Leveraging Large Language Model as Simulated Patients for Clinical Education  
+[arXiv](http://arxiv.org/abs/2404.13066)  
+*Introduces **CureFun**, an **integrated framework** that utilizes LLMs as simulated patients for clinical education, enhancing student-patient dialogues, providing real-time evaluations, and improving medical training through realistic, AI-driven interactions.*
+
+#### (2024/04) Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents  
+[arXiv](https://arxiv.org/abs/2405.02957)  
+*Introduce a simulacrum of hospital called **Agent Hospital** that simulates the entire process of treating illness, in which all patients, nurses, and doctors are LLM-powered autonomous agents.*
+
 #### (2024/06) AI Hospital: Benchmarking Large Language Models in a Multi-agent Medical Interaction Simulator  
 [arXiv](http://arxiv.org/abs/2402.09742) | [Project](https://github.com/LibertFan/AI_Hospital)  
 *Introduces AI Hospital, a **multi-agent framework** for evaluating large language models in simulated medical interactions.*
@@ -116,10 +124,6 @@ This repository provides a curated collection of research papers on **Large Lang
 #### (2024/06) Towards a Client-Centered Assessment of LLM Therapists by Client Simulation  
 [arXiv](https://arxiv.org/abs/2406.12266) | [Project](https://github.com/wangjs9/ClientCAST)  
 *Proposes ClientCAST, a novel LLM-based client simulation framework to assess the performance of AI therapists through standardized questionnaires and interaction analysis.*
-
-#### (2024/10) AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow  
-[arXiv](https://arxiv.org/abs/2409.18924) | [Code](https://www.catalyzex.com/paper/aipatient-simulating-patients-with-ehrs-and/code) | [Data](https://paperswithcode.com/dataset/mimic-iii)  
-*Presents a novel **agentic workflow** combining **EHR** knowledge graphs with Reasoning-RAG architecture.*
 
 #### (2024/12) LLMs Can Simulate Standardized Patients via Agent Coevolution  
 [arXiv](http://arxiv.org/abs/2412.11716) | [Project](https://github.com/ZJUMAI/EvoPatient)  
@@ -139,27 +143,21 @@ This repository provides a curated collection of research papers on **Large Lang
 [Medical Teacher](https://www.tandfonline.com/doi/full/10.1080/0142159X.2022.2130216)  
 *Developed a novel hybrid dialogue system using ASR, hybrid AI, and automated speech generation, enabling artificially intelligent VSPs to correctly answer student questions at levels comparable with human SPs.*
 
+### <a id="rag-knowledge"></a>📚 RAG & Knowledge Graph
+
 #### (2024/05) Automated Generation of High-Quality Medical Simulation Scenarios Through Integration of Semi-Structured Data and Large Language Models  
 [arXiv](https://arxiv.org/abs/2404.19713) | [pdf](https://arxiv.org/pdf/2404.19713)  
 *Introduces a semi-structured data and LLM-integrated framework to automate the generation of medical simulation scenarios, significantly reducing development time while maintaining clinical and educational relevance.*
 
-#### (2025) RasPatient Pi: A Low-Cost Customizable LLM-Based Virtual Standardized Patient Simulator  
-[Springer Link](https://link.springer.com/chapter/10.1007/978-3-031-75147-9_9) | [Project](https://github.com/cgrevisse/raspatientpi)  
-*Presents **RasPatient Pi**, a low-cost, customizable virtual standardized patient simulator based on Large Language Models (LLMs).*
+#### (2024/10) AIPatient: Simulating Patients with EHRs and LLM Powered Agentic Workflow  
+[arXiv](https://arxiv.org/abs/2409.18924) | [Code](https://www.catalyzex.com/paper/aipatient-simulating-patients-with-ehrs-and/code) | [Data](https://paperswithcode.com/dataset/mimic-iii)  
+*Presents a novel **agentic workflow** combining **EHR** knowledge graphs with Reasoning-RAG architecture.*
 
 ### <a id="generative-models"></a>🎨 Generative Models
 
 #### (2024/03) Creating Virtual Patients using Robots and Large Language Models: A Preliminary Study with Medical Students  
 [ACM](https://dl.acm.org/doi/10.1145/3610978.3640592)  
 *Presents **a virtual patient platform combining the social robot Furhat with LLMs (GPT-3.5-turbo)** to enhance clinical reasoning training, demonstrating improved authenticity and learning effects compared to traditional semi-linear VP systems.*
-
-#### (2024/04) Leveraging Large Language Model as Simulated Patients for Clinical Education  
-[arXiv](http://arxiv.org/abs/2404.13066)  
-*Introduces **CureFun**, an **integrated framework** that utilizes LLMs as simulated patients for clinical education, enhancing student-patient dialogues, providing real-time evaluations, and improving medical training through realistic, AI-driven interactions.*
-
-#### (2024/04) Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents  
-[arXiv](https://arxiv.org/abs/2405.02957)  
-*Introduce a simulacrum of hospital called **Agent Hospital** that simulates the entire process of treating illness, in which all patients, nurses, and doctors are LLM-powered autonomous agents.*
 
 #### (2025/03) Augmenting Insufficiently Accruing Oncology Clinical Trials Using Generative Models: Validation Study  
 [JMIR](https://www.jmir.org/2025/1/e66821) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e66821_app1.pdf&filename=1b8ee696dd8ab5638b213dcf7d139fb8.pdf)  
@@ -180,6 +178,13 @@ This repository provides a curated collection of research papers on **Large Lang
 #### (2025/01) Application of Large Language Models in Medical Training Evaluation—Using ChatGPT as a Standardized Patient: Multimetric Assessment  
 [JMIR](https://www.jmir.org/2025/1/e59435) | [pdf](https://www.jmir.org/2025/1/e59435/PDF)  
 *Optimized ChatGPT for medical standardized patient simulation via prompt engineering, enhancing clinical accuracy and realism.*
+
+### <a id="hardware-integration"></a>🤖 Hardware/Robotics Integration
+
+#### (2025) RasPatient Pi: A Low-Cost Customizable LLM-Based Virtual Standardized Patient Simulator  
+[Springer Link](https://link.springer.com/chapter/10.1007/978-3-031-75147-9_9) | [Project](https://github.com/cgrevisse/raspatientpi)  
+*Presents **RasPatient Pi**, a low-cost, customizable virtual standardized patient simulator based on Large Language Models (LLMs).*
+
 
 </div>
 
