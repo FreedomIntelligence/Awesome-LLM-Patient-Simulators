@@ -36,6 +36,7 @@ This repository provides a curated collection of research papers on **Large Lang
 - [Evaluation Methods & Effects](#evaluation-methods--effects)
 - [Challenges & Limitations](#challenges--limitations)
   - [Bias & Ethical Considerations](#bias--ethical-considerations)
+- [Datasets](#datasets)
 
 </div>
 
@@ -45,7 +46,7 @@ This repository provides a curated collection of research papers on **Large Lang
 
 <div style="margin: 20px 0;">
 
-#### (1996/1)）Simulator Limitations and Their Effects on Decision-Making  
+#### (1996/10)）Simulator Limitations and Their Effects on Decision-Making  
 [Sage](https://journals.sagepub.com/doi/10.1177/154193129604001406)  
 *Outlines **core principles of high-fidelity patient simulation** (dynamic case design, structured feedback, and behavioral assessment) that remain foundational for modern LLM-based patient simulation systems in medical education.*
 
@@ -62,7 +63,7 @@ This repository provides a curated collection of research papers on **Large Lang
 *Explores the potential application of ChatGPT and other generative language models in medical education, including virtual patient simulation.*
 
 #### (2025/02) From ChatGPT to DeepSeek: Can LLMs Simulate Humanity?  
-[arXiv](http://arxiv.org/abs/2502.18210) | [pdf](https://arxiv.org/pdf/2502.18210) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e59435_app1.docx&filename=2ff26f0a7b3db530e6e1a74bd2a50323.docx)  
+[arXiv](http://arxiv.org/abs/2502.18210) | [pdf](https://arxiv.org/pdf/2502.18210) | [Data(Appendix)](https://jmir.org/api/download?alt_name=jmir_v27i1e59435_app1.docx&filename=2ff26f0a7b3db530e6e1a74bd2a50323.docx)  
 *Analyses LLMs' ability to simulate human behavior, discussing key limitations (e.g., bias, lack of incentives) and future alignment strategies.*
 
 ### <a id="virtual-patient-development"></a>🤒 Virtual Patient Development
@@ -71,23 +72,19 @@ This repository provides a curated collection of research papers on **Large Lang
 [PudMed](https://www.researchgate.net/publication/6372288_Virtual_Patient_Simulation_at_US_and_Canadian_Medical_Schools)  
 *Examines the adoption, implementation, and educational impact of **virtual patient simulations** in **medical schools** across the U.S. and Canada.*
 
+#### (2010/09) High-fidelity patient simulation: considerations for effective learning.  
+[PubMed](https://www.researchgate.net/publication/47814051_High-fidelity_patient_simulation_Considerations_for_effective_learning)  
+*Examines **high-fidelity patient simulation in medical education**, emphasizing key design and implementation factors that optimize learning outcomes*
+
+#### (2010/09) Virtual patient simulation: knowledge gain or knowledge loss?  
+[BMC Medical Education](https://pubmed.ncbi.nlm.nih.gov/20653378/)  
+*Explores the use of **virtual patient** simulations in **medical education**, demonstrating their effectiveness in improving clinical decision-making and diagnostic skills among learners.*
+
 #### (2010/12) Virtual patient simulation: what do students make of it? A focus group study  
 [BMC Medical Education](https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-10-91)  
 *Evaluates the effectiveness of **virtual patient simulations** in **medical education**, finding that they enhance clinical reasoning skills and knowledge retention among students.*
 
-#### (2010) Virtual patient simulation: knowledge gain or knowledge loss?  
-[BMC Medical Education](https://bmcmededuc.biomedcentral.com/articles/10.1186/1472-6920-10-91)  
-*Explores the use of **virtual patient** simulations in **medical education**, demonstrating their effectiveness in improving clinical decision-making and diagnostic skills among learners.*
-
-#### (2015) Effectiveness of patient simulation in nursing education: meta-analysis.  
-[Nurse Education Today](https://www.sciencedirect.com/science/article/abs/pii/S0260691714003074)  
-*Identify the best available evidence about the effects of **patient simulation** in **nursing education** through a meta-analysis.*
-
-#### (2010) High-fidelity patient simulation: considerations for effective learning.  
-[Nurse Education Today](https://www.researchgate.net/publication/47814051_High-fidelity_patient_simulation_Considerations_for_effective_learning)  
-*Examines **high-fidelity patient simulation in medical education**, emphasizing key design and implementation factors that optimize learning outcomes*
-
-#### (2015) Effectiveness of patient simulation in nursing education: meta-analysis.  
+#### (2015/01) Effectiveness of patient simulation in nursing education: meta-analysis.  
 [Nurse Education Today](https://www.sciencedirect.com/science/article/abs/pii/S0260691714003074)  
 *Identify the best available evidence about the effects of **patient simulation** in **nursing education** through a meta-analysis.*
 
@@ -106,7 +103,7 @@ This repository provides a curated collection of research papers on **Large Lang
 ### <a id="agent-systems"></a>🤖 Agent Systems
 
 #### (2024/01) Towards Conversational Diagnostic AI  
-[arXiv](https://arxiv.org/abs/2401.05654)  
+[arXiv](https://arxiv.org/abs/2401.05654) | [Code](https://github.com/Shivanshu-Gupta/web-scrapers/blob/master/medical_ner/medicinenet-diseases.json?utm_source=catalyzex.com)  
 *Introduces **AMIE**, an AI-driven system powered by LLMs that simulates virtual patient-doctor interactions for clinical education, enhancing diagnostic reasoning and medical history-taking skills.*
 
 #### (2024/04) Leveraging Large Language Model as Simulated Patients for Clinical Education  
@@ -114,15 +111,15 @@ This repository provides a curated collection of research papers on **Large Lang
 *Introduces **CureFun**, an **integrated framework** that utilizes LLMs as simulated patients for clinical education, enhancing student-patient dialogues, providing real-time evaluations, and improving medical training through realistic, AI-driven interactions.*
 
 #### (2024/04) Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents  
-[arXiv](https://arxiv.org/abs/2405.02957)  
+[arXiv](https://arxiv.org/abs/2405.02957) | [Dataset_MedQA](https://paperswithcode.com/dataset/medqa-usmle)  
 *Introduce a simulacrum of hospital called **Agent Hospital** that simulates the entire process of treating illness, in which all patients, nurses, and doctors are LLM-powered autonomous agents.*
 
 #### (2024/06) AI Hospital: Benchmarking Large Language Models in a Multi-agent Medical Interaction Simulator  
-[arXiv](http://arxiv.org/abs/2402.09742) | [Project](https://github.com/LibertFan/AI_Hospital)  
+[arXiv](http://arxiv.org/abs/2402.09742) | [Project](https://github.com/LibertFan/AI_Hospital) | [Dataset_MVME](https://paperswithcode.com/dataset/mvme) | [Dataset_MedQA](https://paperswithcode.com/dataset/medqa-usmle) | [Dataset_PubMedQA](https://paperswithcode.com/dataset/pubmedqa) | [Dataset_MedMCQA](https://paperswithcode.com/dataset/medmcqa)  
 *Introduces AI Hospital, a **multi-agent framework** for evaluating large language models in simulated medical interactions.*
 
 #### (2024/06) Towards a Client-Centered Assessment of LLM Therapists by Client Simulation  
-[arXiv](https://arxiv.org/abs/2406.12266) | [Project](https://github.com/wangjs9/ClientCAST)  
+[arXiv](https://arxiv.org/abs/2406.12266) | [Project](https://github.com/wangjs9/ClientCAST) | [Dataset_AnnoMI](https://paperswithcode.com/dataset/annomi)  
 *Proposes ClientCAST, a novel LLM-based client simulation framework to assess the performance of AI therapists through standardized questionnaires and interaction analysis.*
 
 #### (2024/12) LLMs Can Simulate Standardized Patients via Agent Coevolution  
@@ -134,14 +131,14 @@ This repository provides a curated collection of research papers on **Large Lang
 *Introduces a LLM-based multi-agent system (SimPatient) with dynamic cognitive modeling and real-time feedback to enhance motivational interviewing (MI) training through interactive patient simulations.*
 
 #### (2025/03) Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions
-[arXiv](https://arxiv.org/abs/2503.22678)  
-*introduce MedAgentSim, an open-source simulated clinical environment with doctor, patient, and measurement agents designed to evaluate and enhance LLM performance in dynamic diagnostic settings.*
+[arXiv](https://arxiv.org/abs/2503.22678) | [Dataset_MedQA](https://paperswithcode.com/dataset/medqa-usmle)  
+*introduce **MedAgentSim**, an open-source simulated clinical environment with doctor, patient, and measurement agents designed to evaluate and enhance LLM performance in dynamic diagnostic settings.*
 
 ### <a id="nlp-techniques"></a>💬 NLP Techniques
 
 #### (2022/11) Artificial intelligence in virtual standardized patients: Combining natural language understanding and rule based dialogue management to improve conversational fidelity  
 [Medical Teacher](https://www.tandfonline.com/doi/full/10.1080/0142159X.2022.2130216)  
-*Developed a novel hybrid dialogue system using ASR, hybrid AI, and automated speech generation, enabling artificially intelligent VSPs to correctly answer student questions at levels comparable with human SPs.*
+*Developed **a novel hybrid dialogue system** using **ASR, hybrid AI, and automated speech generation**, enabling artificially intelligent **VSPs** to correctly answer student questions at levels comparable with human SPs.*
 
 ### <a id="rag-knowledge"></a>📚 RAG & Knowledge Graph
 
@@ -160,7 +157,7 @@ This repository provides a curated collection of research papers on **Large Lang
 *Presents **a virtual patient platform combining the social robot Furhat with LLMs (GPT-3.5-turbo)** to enhance clinical reasoning training, demonstrating improved authenticity and learning effects compared to traditional semi-linear VP systems.*
 
 #### (2025/03) Augmenting Insufficiently Accruing Oncology Clinical Trials Using Generative Models: Validation Study  
-[JMIR](https://www.jmir.org/2025/1/e66821) | [Data](https://jmir.org/api/download?alt_name=jmir_v27i1e66821_app1.pdf&filename=1b8ee696dd8ab5638b213dcf7d139fb8.pdf)  
+[JMIR](https://www.jmir.org/2025/1/e66821) | [Data (Appendix)](https://jmir.org/api/download?alt_name=jmir_v27i1e66821_app1.pdf&filename=1b8ee696dd8ab5638b213dcf7d139fb8.pdf)  
 *Explores the use of generative models to augment oncology clinical trials with insufficient patient accrual, validating their effectiveness in simulating additional patient data to improve trial outcomes.*
 
 ### <a id="transformer-architectures"></a>🖼️ Transformer Architectures
@@ -172,11 +169,11 @@ This repository provides a curated collection of research papers on **Large Lang
 ### <a id="prompt-engineering"></a>✏️ Prompt Engineering
 
 #### (2024/01) A Generative Pretrained Transformer (GPT)–Powered Chatbot as a Simulated Patient to Practice History Taking: Prospective, Mixed Methods Study  
-[JMIR](https://mededu.jmir.org/2024/1/e53961) | [pdf](https://jmir.org/api/download?alt_name=mededu_v10i1e53961_app1.pdf&filename=afea0cccea2a67adc54d26ef18fd7da4.pdf)  
+[JMIR](https://mededu.jmir.org/2024/1/e53961) | [Data(Appendix)](https://jmir.org/api/download?alt_name=mededu_v10i1e53961_app1.pdf&filename=afea0cccea2a67adc54d26ef18fd7da4.pdf)  
 *Employs **a GPT-powered chatbot as a simulated patient**, using meticulously crafted prompts to replicate realistic clinical interactions for medical history-taking practice, demonstrating the **potential of LLMs in standardized patient training.***
 
 #### (2025/01) Application of Large Language Models in Medical Training Evaluation—Using ChatGPT as a Standardized Patient: Multimetric Assessment  
-[JMIR](https://www.jmir.org/2025/1/e59435) | [pdf](https://www.jmir.org/2025/1/e59435/PDF)  
+[JMIR](https://www.jmir.org/2025/1/e59435) | [pdf](https://www.jmir.org/2025/1/e59435/PDF) | [Data(Appendix)(https://jmir.org/api/download?alt_name=jmir_v27i1e59435_app1.docx&filename=2ff26f0a7b3db530e6e1a74bd2a50323.docx)]
 *Optimized ChatGPT for medical standardized patient simulation via prompt engineering, enhancing clinical accuracy and realism.*
 
 ### <a id="hardware-integration"></a>🤖 Hardware/Robotics Integration
@@ -275,7 +272,7 @@ This repository provides a curated collection of research papers on **Large Lang
 ### <a id="clinical-decision-support"></a>⚕️ Clinical Decision Support
 
 #### (2024/11) Large language models improve clinical decision making of medical students through patient simulation and structured feedback: a randomized controlled trial  
-[PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/) | [Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/#_ad93_)  
+[PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/) | [Data(Appendix)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11605890/#_ad93_)  
 *Demonstrates that AI-simulated medical history conversations, particularly when combined with structured feedback, can enhance clinical decision-making skills in medical students.*
 
 ### <a id="patient-communication-simulation"></a>💬 Patient Communication Simulation
@@ -283,6 +280,10 @@ This repository provides a curated collection of research papers on **Large Lang
 #### (2025/03) Beyond the Script: Testing LLMs for Authentic Patient Communication Styles in Healthcare
 [arXiv](https://arxiv.org/abs/2503.22250)  
 *Proposes the use of Large Language Models (LLMs) to simulate authentic patient communication styles and these VPs are evaluated by medical professionals.*
+
+#### (2025/03) Modeling Challenging Patient Interactions: LLMs for Medical Communication Training
+[arXiv](https://arxiv.org/abs/2503.22250)  
+*Proposes the use of Large Language Models (LLMs) to simulate authentic patient communication styles, specifically personas derived from the Satir model, while also ensuring multilingual applicability.*
 
 
 </div>
@@ -319,7 +320,7 @@ This repository provides a curated collection of research papers on **Large Lang
 
 #### (2024/07) A Survey of Large Language Models in Medicine: Progress, Application, and Challenge
   
-[arXiv]([https://pmc.ncbi.nlm.nih.gov/articles/PMC11249277/](https://arxiv.org/abs/2311.05112))  
+[arXiv](https://arxiv.org/abs/2311.05112)  
 *The applications of LLM in medicine are reviewed, covering the challenges of patient simulation (such as dynamic interaction and realism).*
 
 ### <a id="bias--ethical-considerations"></a>🎭 Bias & Ethical Considerations
@@ -331,6 +332,41 @@ This repository provides a curated collection of research papers on **Large Lang
 #### (2024/07) The Role of Humanization and Robustness of Large Language Models in Conversational Artificial Intelligence for Individuals With Depression: A Critical Analysis  
 [JMIR](https://www.jmir.org) | [pdf](https://example.com/pdf)  
 *Analyzes LLMs' humanization and robustness in depression-focused AI, revealing emotional understanding gaps and proposing enhancement strategies.*
+
+</div>
+
+---
+
+## <a id="datasets"></a>📊 Datasets <span style="font-size: 0.8em; color: #666;">💾</span>
+
+<div style="margin: 20px 0;">
+
+This section lists datasets and project repositories mentioned in the papers that are either generated by the simulation process or used for evaluation and grounding. Note that project repositories may contain various resources including code, configuration files, and potentially simulation data or logs. Appendices often contain supplementary information like prompts or evaluation rubrics rather than reusable datasets.
+
+### Simulation Dialogue, Configuration & Resources
+
+| Dataset/Resource         | Paper Year | Language | Data Type     | Project/Code| Link                                                              |
+| :----------------------- | :--------- | :------- | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------- |
+| PG-logs-eval             | 2021/05    | French   | Dialogue Logs | -| [Link](https://pvdial.limsi.fr/data/PG-logs-eval.zip)             |
+| medicinenet-diseases.json| 2024/01    | English  | Disease List  | [Code Repo](https://github.com/Shivanshu-Gupta/web-scrapers/blob/master/medical_ner/medicinenet-diseases.json?utm_source=catalyzex.com) | [Link](https://github.com/Shivanshu-Gupta/web-scrapers/blob/master/medical_ner/medicinenet-diseases.json?utm_source=catalyzex.com) |
+| ClientCAST Framework     | 2024/06    | English  | Simulation Framework | [Project](https://github.com/wangjs9/ClientCAST)                                                                                  | [Project Link](https://github.com/wangjs9/ClientCAST)             |
+| EvoPatient Framework     | 2023/12    | English  | Simulation Framework | [Project](https://github.com/ZJUMAI/EvoPatient)                                                                                   | [Project Link](https://github.com/ZJUMAI/EvoPatient)              |
+| RasPatient Pi            | 2024/07    | English  | Simulation Framework | [Project](https://github.com/cgrevisse/raspatientpi)                                                                              | [Project Link](https://github.com/cgrevisse/raspatientpi)         |
+| Roleplay-doh Tool        | 2024/07    | English  | Simulation Tool | [Project](https://roleplay-doh.github.io/)                                                                                            | [Project Link](https://roleplay-doh.github.io/)                   |
+| AIPatient Workflow       | 2023/10    | English  | Agentic Workflow | [Code](https://www.catalyzex.com/paper/aipatient-simulating-patients-with-ehrs-and/code)                                            | [Code Link](https://www.catalyzex.com/paper/aipatient-simulating-patients-with-ehrs-and/code) |
+
+### Evaluation & Grounding Datasets
+
+| Dataset      | Task Type               | Language   | Access        | Used In Paper (Year)   | Link                                                          | Project                                  |
+| :----------- | :---------------------- | :--------- | :------------ | :--------------------- | :------------------------------------------------------------ | :------------------------------------------------------ |
+| MIMIC-III    | EHR Data                | English    | Restricted    | 2023/10 (AIPatient)    | [Link](https://paperswithcode.com/dataset/mimic-iii)          | -                                                       |
+| MedQA (USMLE)| Medical QA              | English    | Public        | 2024/05, 2024/06, 2024/03 | [Link](https://paperswithcode.com/dataset/medqa-usmle)        | [AI Hospital](https://github.com/LibertFan/AI_Hospital) |
+| MVME         | Medical Vision/Language | Multimodal | Public        | 2024/06 (AI Hospital)  | [Link](https://paperswithcode.com/dataset/mvme)               | [AI Hospital](https://github.com/LibertFan/AI_Hospital) |
+| PubMedQA     | Biomedical QA           | English    | Public        | 2024/06 (AI Hospital)  | [Link](https://paperswithcode.com/dataset/pubmedqa)           | [AI Hospital](https://github.com/LibertFan/AI_Hospital) |
+| MedMCQA      | Medical QA (India)      | English    | Public        | 2024/06 (AI Hospital)  | [Link](https://paperswithcode.com/dataset/medmcqa)            | [AI Hospital](https://github.com/LibertFan/AI_Hospital) |
+| AnnoMI       | Motivational Interviewing | English    | Public        | 2024/06 (ClientCAST)   | [Link](https://paperswithcode.com/dataset/annomi)             | [ClientCAST](https://github.com/wangjs9/ClientCAST)     |
+| NPHardEval   | LLM Reasoning Benchmark | English    | Public        | 2024/02                | [Project Link](https://github.com/casmlab/NPHardEval)         | [NPHardEval](https://github.com/casmlab/NPHardEval)     |
+| NPHardEval4V | MLLM Reasoning Benchmark| Multimodal | Public        | 2024/03                | [Project Link](https://github.com/lizhouf/NPHardEval4V)       | [NPHardEval4V](https://github.com/lizhouf/NPHardEval4V) |
 
 </div>
 
